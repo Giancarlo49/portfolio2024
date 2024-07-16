@@ -1,11 +1,12 @@
-import React from 'react'
+import 'react'
 import './Navbar.css'
-import logo from '../../assets/logo.svg'
+// import logo from '../../assets/template.svg'
 
 const Navbar = () => {
   return (
       <div className='navbar'>
-          <img src={logo} alt="" />
+      {/* <img src={logo} alt="" /> */}
+      <h2 className='meinName'>Carlo</h2> {/* ersetz das img_logo */}
           <ul className="nav-menu">
               <li>Home</li>
               <li>About Me</li>
