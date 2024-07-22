@@ -16,14 +16,15 @@ const About = () => {
               </div>
               <div className="about-right">
                   <div className="about-para">
-                      <p>I am a Software Developer with more than two years of experience</p>
-                      <p>My passion for Developing is ReactJS Flutter and Python</p>
+                      <p>I'm a web developer and I have successfully completed two years of training. My training included HTML, CSS, JavaScript, React JS, Flutter, SwiftUI, and Python.</p>
+                      
                   </div>
                   <div className="about-skills">
                       <div className="about-skill"><p>HTML & CSS</p><hr style={{width: "60%"}}/></div>
                       <div className="about-skill"><p>React JS</p><hr style={{ width: "70%" }} /></div>
-                      <div className="about-skill"><p>JavaScript</p><hr style={{width: "60%"}}/></div>
-                      <div className="about-skill"><p>Flutter</p><hr style={{width: "50%"}}/></div>
+                      <div className="about-skill"><p>JavaScript</p><hr style={{ width: "60%" }} /></div>
+                      <div className="about-skill"><p>SwiftUI</p><hr style={{width: "45%"}}/></div>
+                      <div className="about-skill"><p>Flutter</p><hr style={{width: "55%"}}/></div>
                       <div className="about-skill"><p>Python</p><hr style={{width: "55%"}}/></div>
                   </div>
               </div>
