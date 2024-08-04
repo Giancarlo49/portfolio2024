@@ -10,7 +10,7 @@ const Contact = () => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "3825cbcf-45a6-4644-87c8-28c40768e9ec");
+    formData.append("access_key", "3825cbcf-45a6-4644-87c8-28c40768e9ec"); //acces-key www.web3forms.com
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
